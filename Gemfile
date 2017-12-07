@@ -23,6 +23,7 @@ gem "omniauth-oauth2"
 gem "omniauth-staffomatic-oauth2", github: 'staffomatic/omniauth-staffomatic-oauth2', ref: '67ea868'
 gem "staffomatic", github: 'staffomatic/staffomatic.rb', branch: "api_namespace_changes"
 
+gem 'honeybadger', '~> 3.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
