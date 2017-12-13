@@ -20,15 +20,14 @@ Request Secrets and Integration URL @ https://staffomatic.com
 
 ## 2. Setup Secrets/Database
 
-Copy Over ´Application UID´ & `Secret` to ´config/secrets.yml´
+Copy Over ´.env_example´ to ´.env´ ´$ cp .env_example .env´
 
-    development:
-      secret_key_base: ***
-      staffomatic_site_url: 'staffomatic-frontend.dev'
-      staffomatic_api_endpoint: "http://api.staffomatic-api.dev/v3/demo"
-      staffomatic_api_scheme: "http"
-      staffomatic_app_key: ****
-      staffomatic_app_secret: ****
+  SECRET_KEY_BASE=""
+  STAFFOMATIC_SITE_URL=""
+  STAFFOMATIC_API_ENDPOINT=""
+  STAFFOMATIC_APP_KEY=""
+  STAFFOMATIC_APP_SECRET=""
+  STAFFOMATIC_API_SCHEME=""
 
 Rename database
 
